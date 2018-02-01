@@ -1,7 +1,7 @@
 SECexplorer
 ===========
 
-SECexplorer is a web interface to the *R* package SECprofiler.
+SECexplorer is a web interface to the *R* package *CCprofiler*.
 
 This project consists of two parts:
 
