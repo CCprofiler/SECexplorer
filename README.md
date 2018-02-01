@@ -10,7 +10,7 @@ This project consists of two parts:
 
 - A `server/` folder holds Python code for the backend server based on
   [flask](http://flask.pocoo.org/).  Further the backend uses `rpy2` to execute the functions from the
-  `SECprofiler` R package.
+  `CCprofiler` R package.
 
 
 How is the web server setup ?
