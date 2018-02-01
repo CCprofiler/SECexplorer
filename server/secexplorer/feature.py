@@ -19,7 +19,7 @@ numpy2ri.activate()
 
 robjects.numpy2ri.activate()
 
-secprofiler = importr('SECprofiler')
+secprofiler = importr('CCprofiler')
 
 backend_cache = OrderedDict()
 
