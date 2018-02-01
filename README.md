@@ -21,7 +21,7 @@ a `nodejs` web server listening on port 80. This server is configured and setup 
 
 Currently this web server only serves the `index.html` file plus the referenced static java script and css files. 
 
-The clients  javascript code requests the functions from the `R` pacakge `SECprofiler` by accessing the backend server who offers a web service on the URL `http://127.0.0.1:8020/app`. 
+The clients  javascript code requests the functions from the `R` pacakge `CCprofiler` by accessing the backend server who offers a web service on the URL `http://127.0.0.1:8020/app`. 
 
 This backend Python server is implemented with `flask`. Apache listens on port 8020 and forwards requests to the `app.wsgi` script using the apache module `mod_wsgi`.
 
@@ -32,7 +32,7 @@ How to setup and install the web server
 **First read the `client/README.md` file for installing `nodejs` and the requires javascript 
 packages.**
 
-**Furter check the installation instructions in the `SECprofiler` package. This `R` package must be
+**Furter check the installation instructions in the `CCprofiler` package. This `R` package must be
 accesssible by `rpy2` within the Python backend.**
 
 We implemented a unit file `sec_explorer.server` for `systemd` for proper startup and shutdown of
